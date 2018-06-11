@@ -27,22 +27,29 @@
 		
 		.highlight {
 			position: relative;
+			display: inline-block;
 			width: 200px;
 			height: 200px;
 			padding: 10px;
 			content-align: center;
-			border-radius: 10px;
+			border-radius: 5%;
 			background: #d8e7ff;
 			margin: 5%;
 			float: none;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 		}
 		
 		.container-hi {
-			height: 200px;
-			background: aqua;
-			margin: auto;
+		    position: relative;
+			height: auto;
+			width: 90%;
+			margin-left: 8%;
+			margin-right: auto;
+			margin-top: 0;
+			margin-bottom: 0;
 			padding: 10px;
 			content-align: center;
+			
 		}
         
     </style>
@@ -55,10 +62,11 @@
 	<div class="main" style="content-align:center">
 		<h1>Hello, world!</h1>
 		
-			
-				<div class="highlight"></div> 
-				<div class="highlight"></div> 
-				<div class="highlight"></div> 
+			<div class="container-hi">
+				<div class="highlight"><center><h3>Get A Quote!</h3><br /><img src="icons8-coins-64.png"></center></div> 
+				<div class="highlight"><center><h3>Get A Quote!</h3><br /><img src="icons8-coins-64.png"></center></div> 
+				<div class="highlight"><center><h3>Get A Quote!</h3><br /><img src="icons8-coins-64.png"></center></div> 
+			</div>
 		
 		
 	</div>
@@ -89,7 +97,7 @@
 	<div style="background-image: url('jumbotron.jpg');background-size: 100% 100%;margin: 0;height: 100%" class="jumbotron jumbotron-fluid" >
 		<div style="height:400px"  class="container" >
 			<h1 class="display-4">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspFluid jumbotron</h1>
-			<p class="lead"><strong>This is a modified jumbotron that occupies the entire horizontal space of its parent.</strong></p>
+			<p class="lead" style="margin-left:15%; margin-right:25%"><strong>This is a modified jumbotron that occupies the entire horizontal space of its parent.</strong></p>
 		</div>
 	</div>
 
